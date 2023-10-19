@@ -471,7 +471,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Shim
 PRODUCT_PACKAGES += \
     android.hardware.light-V1-ndk_platform.vendor \
-    android.hidl.base@1.0.vendor
+    android.hidl.base@1.0.vendor \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Telephony
 PRODUCT_PACKAGES += \
