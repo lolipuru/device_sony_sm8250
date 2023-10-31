@@ -32,6 +32,7 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IGnss/gnss_vendor</fqname>
         <fqname>@1.1::IGnss/default</fqname>
+        <fqname>@2.1::IGnss/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.keymaster</name>
@@ -63,11 +64,6 @@
         <fqname>@1.1::IRadioConfig/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.secure_element</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.2::ISecureElement/SIM1</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
         <fqname>@2.3::ISoundTriggerHw/default</fqname>
@@ -96,6 +92,9 @@
         <name>vendor.qti.gnss</name>
         <transport>hwbinder</transport>
         <fqname>@1.2::ILocHidlGnss/gnss_vendor</fqname>
+        <fqname>@2.1::ILocHidlGnss/gnss_vendor</fqname>
+        <fqname>@3.0::ILocHidlGnss/gnss_vendor</fqname>
+        <fqname>@4.0::ILocHidlGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.alarm</name>
